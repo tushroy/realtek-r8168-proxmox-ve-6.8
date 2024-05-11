@@ -8,7 +8,7 @@ Once all of this is completed we are going to update our GRUB to have some speci
 
     sed -i 's/GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX="r8168.aspm=0 r8168.eee_enable=0 pcie_aspm=off loglevel=3"/' /etc/default/grub
 
-Run following commands:
+Run following commands to download from source and compile, install the driver:
 
     mkdir r8168_v3 && cd r8168_v3
     wget http://deb.debian.org/debian/pool/non-free/r/r8168/r8168_8.053.00-1.debian.tar.xz
