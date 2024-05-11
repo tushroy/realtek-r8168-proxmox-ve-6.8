@@ -19,6 +19,11 @@ Run following commands to download from source and compile, install the driver:
     dpkg-buildpackage
     dpkg -i ../r8168-dkms_8.053.00-1_all.deb
 
+Or download the driver directly and install
+
+    wget http://ftp.debian.org/debian/pool/non-free/r/r8168/r8168-dkms_8.053.00-1_all.deb
+    dpkg -i r8168-dkms_8.053.00-1_all.deb
+
 Curated and inspired from:
  - https://www.reddit.com/r/Proxmox/comments/1828z6o/proxmox_upgrade_broke_realtek_r8168_drivers/
  - https://github.com/nathanhi/r8168
