@@ -28,3 +28,4 @@ Curated and inspired from:
  - https://github.com/nathanhi/r8168
  - https://forum.proxmox.com/threads/unable-to-install-r8168-dkms-for-realtek-nic.137727/
  - https://gist.github.com/SQLJames/fe6fcd5e819d864986ce2eff6ad350da
+ - https://gist.github.com/tushroy/69f84ee5955e76396f3b0f41ad9b731a
