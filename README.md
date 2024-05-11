@@ -1,4 +1,3 @@
-
 # Realtek r8168 Driver for Proxmox VE Kernel version 6.8
 Blacklist r8169 kernel driver for being loaded
 
